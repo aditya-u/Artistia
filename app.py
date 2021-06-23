@@ -139,4 +139,4 @@ def get_img_pixel():
         render_template('./pixel.html')
     return render_template('./pixel.html')
 
-# app.run(port=5000, debug=True)
+app.run(port=8080, debug=False)
