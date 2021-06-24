@@ -138,5 +138,5 @@ def get_img_pixel():
         Pixelate.pixelate(pixel_size = int(size))
         render_template('./pixel.html')
     return render_template('./pixel.html')
-# if __name__=='__main__':
-#     app.run()
+if __name__=='__main__':
+    app.run()
